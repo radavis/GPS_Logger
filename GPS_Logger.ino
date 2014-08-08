@@ -88,6 +88,7 @@ void setup() {
   Serial.println("USB Serial Port up!\n");
 
   Serial1.begin(9600);  // GPS Serial connection
+  Serial.println("GPS Serial Port up!\n");
 
   pinMode(chipSelect, OUTPUT);
   if (!SD.begin(chipSelect))
