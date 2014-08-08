@@ -106,9 +106,8 @@ void loop() {
   if(dataFile) {
     Serial.println("Success!\n");
 
-    Serial.println("GPS Serial port available?...");
+    Serial.println("Attempt to read from GPS device:");
     while(Serial1.available()) {
-      Serial.println("Success!\n");
 
       temp = Serial1.read();
       Serial.print(temp);
