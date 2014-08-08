@@ -62,11 +62,15 @@
   3) Attach the GPS shield with FAT16 formatted
   SD card installed.
 
-  4) Connect Arduino + GPS shield to your PC
+  4) Connect Rx to D1 on the GPS shield.
 
-  5) Open up the Serial Monitor
+  5) Connect Tx to D0 on the GPS shield.
 
-  6) Debugging output should indicate if and
+  6) Connect Arduino + GPS shield to your PC
+
+  7) Open up the Serial Monitor
+
+  8) Debugging output should indicate if and
   when this sketch is having issues.
 
  **********************************************/
